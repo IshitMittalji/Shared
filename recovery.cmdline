@@ -1,0 +1,1 @@
+runinstaller quiet ramdisk_size=32768 root=/dev/ram0 init=/init vt.cur_default=1 elevator=deadline no_group no_default_source select="allnetwork" disablesdimages alt_image_source=http://pinn.mjh.nz/os_list.json?lineage19-rpi4=14350&raspberrypios64-bit=14350 loglevel=2 sdhci.debug_quirks2=4
